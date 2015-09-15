@@ -46,20 +46,14 @@ public class c_heartRate_a_logIn extends ActivityInstrumentationTestCase2 {
         //Wait for activity: 'com.fitbit.onboarding.login.LoginActivity'
 		assertTrue("LoginActivity is not found!", solo.waitForActivity("LoginActivity"));
 
-        //Enter the text: 'spoonyhayseuss@gmail.com'
-		solo.clearEditText((android.widget.EditText) solo.getView("login_email"));
-		solo.enterText((android.widget.EditText) solo.getView("login_email"), "spoonyhayseuss@gmail.com");
+        solo.clearEditText(0);
+		solo.enterText(0, "spoonyhayseuss@gmail.com");
 
-        //Click on Empty Text View
-		solo.clickOnView(solo.getView("login_password"));
-
-        //Enter
-		solo.clearEditText((android.widget.EditText) solo.getView("login_password"));
-		solo.enterText((android.widget.EditText) solo.getView("login_password"), "spoon123");
-
+		solo.enterText(1, "spoon123");
         //Click on Log in
 		solo.clickOnView(solo.getView("login_button"));
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
 		assertTrue("HomeActivity_ is not found!", solo.waitForActivity("HomeActivity_"));
+
 	}
 }

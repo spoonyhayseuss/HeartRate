@@ -49,7 +49,7 @@ public class c_heartRate_b_hrMainSwipeScroll extends ActivityInstrumentationTest
         //Wait for activity: 'com.fitbit.heartrate.landing.HeartRateLandingActivity'
 		assertTrue("HeartRateLandingActivity is not found!", solo.waitForActivity("HeartRateLandingActivity"));
         //sleep - shot
-        solo.sleep(500);
+        solo.sleep(1000);
         solo.takeScreenshot("b_hrMainSwipe_c_heartRate");
         //Scroll View to the right side
         solo.scrollToSide(Solo.RIGHT);
