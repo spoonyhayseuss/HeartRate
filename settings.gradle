@@ -1,0 +1,4 @@
+include ':app'
+
+include ':FitBitApplication_Test'
+include ':FitBitApplicationTest'
