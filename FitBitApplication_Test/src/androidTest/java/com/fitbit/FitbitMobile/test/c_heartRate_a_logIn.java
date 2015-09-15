@@ -40,7 +40,7 @@ public class c_heartRate_a_logIn extends ActivityInstrumentationTestCase2 {
   
 	public void testRun() {
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
-		solo.waitForActivity("LandingActivity_", 2000);
+		solo.waitForActivity("LandingActivity_", 500);
 
 		solo.clickOnView(solo.getView("btn_log_in"));
         //Wait for activity: 'com.fitbit.onboarding.login.LoginActivity'
