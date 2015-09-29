@@ -5,3 +5,4 @@ package com.fitbit.FitbitMobile.test;
  */
 public class c_heartRate_k_a_stressTest {
 }
+//need to add -- include several tests from above cases all in 1 to stress feature a bit

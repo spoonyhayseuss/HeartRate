@@ -9,7 +9,7 @@ import com.robotium.solo.Solo;
 public class c_heartRate_h_a_minutesInPortrait extends ActivityInstrumentationTestCase2 {
   	private Solo solo;
   	
-  	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.fitbit.onboarding.landing.LandingActivity_";
+  	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.fitbit.onboarding.landing.LandingActivity";
 
     private static Class<?> launcherActivityClass;
     static{
